@@ -1,7 +1,7 @@
 from collections import Counter#Counter is a dictionary that automatically counts how many times each item appears in a list.
 
 # Open and read the text file
-with open("sample-file.txt", "r", encoding="utf-8") as file:
+with open("sample-file.txt", "r") as file:
     file_text = file.read()
 
 # Convert all text to lowercase
